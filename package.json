@@ -37,7 +37,10 @@
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
     "autod": "autod",
-    "ci2": "eslint . && NODE_ENV=test npx sequelize db:migrate && egg-bin cov"
+    "ci2": "eslint . && NODE_ENV=test npx sequelize db:migrate && egg-bin cov",
+    "m:new": "sequelize migration:create",
+    "m:up": "sequelize db:migration",
+    "m:down": "sequelize db:migration:undo"
   },
   "ci": {
     "version": "10"
