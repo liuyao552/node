@@ -1,14 +1,28 @@
 {
   "development": {
     "username": "root",
-    "password": "xjt123",
+    "password": "password",
+    "database": "egg-sequelize-doc-default",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "dev": {
+    "username": "root",
+    "password": "password",
     "database": "egg-sequelize-doc-default",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "xjt123",
+    "password": "password",
+    "database": "egg-sequelize-doc-unittest",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "password",
     "database": "egg-sequelize-doc-unittest",
     "host": "127.0.0.1",
     "dialect": "mysql"
